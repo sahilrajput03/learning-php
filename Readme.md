@@ -1,6 +1,18 @@
 # Readme
 
+## learning path
+
 Start learning from here: <https://www.w3schools.com/php/php_functions.asp>
+
+## About live php server setup
+
+Note you must specify `--port 8080` in live-server command, coz that seems to cause any problem and live reloding in browser isn't working that way.
+
+- live web server from php: <https://github.com/ritwickdey/live-server-web-extension>
+- <https://stackoverflow.com/questions/60678203/is-it-possible-to-use-live-server-for-php-with-autoreload-on-save>
+- if ever get free try this another promising extension(its popular on vscode though: <https://marketplace.visualstudio.com/items?itemName=ziishaned.livereload>).
+
+## other
 
 To serve a particular path with apache2, read the guide @ linux-walkthrough.md file.
 
@@ -24,11 +36,3 @@ Browse `localhost/docs` to view the default page of apache2 server.
 ## continue doing from below link
 
 <https://www.w3schools.com/php/php_variables.asp>
-
-## About live php server setup
-
-Note you must specify `--port 8080` in live-server command, coz that seems to cause any problem and live reloding in browser isn't working that way.
-
-- live web server from php: <https://github.com/ritwickdey/live-server-web-extension>
-- <https://stackoverflow.com/questions/60678203/is-it-possible-to-use-live-server-for-php-with-autoreload-on-save>
-- if ever get free try this another promising extension(its popular on vscode though: <https://marketplace.visualstudio.com/items?itemName=ziishaned.livereload>).
