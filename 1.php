@@ -1,6 +1,6 @@
 <?php
-echo "<h1>Hello World 123</h1>";
-echo "Hello World 123";
+echo '<h1>Hello World 123</h1>';
+echo 'Hello World 123';
 
 // This is a single-line comment
 
@@ -15,5 +15,4 @@ lines
 // You can also use comments to leave out parts of a code line
 $x = 5 /* + 15 */ + 5;
 // src: https://www.w3schools.com/php/php_comments.asp
-
 ?>
