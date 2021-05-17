@@ -1,8 +1,6 @@
 # Readme
 
-## learning path
-
-Start learning from here: <https://www.w3schools.com/php/php_functions.asp>
+Learning path - Start learning from here: <https://www.w3schools.com/php/php_functions.asp>
 
 ## About live php server setup
 
