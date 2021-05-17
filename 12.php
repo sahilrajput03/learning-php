@@ -5,6 +5,6 @@ function addNumbers($a, $b) {
 }
 
 // echo addNumbers(5, '5 days'); // 🛑︎ This throws error..
-echo addNumbers(5, 16); // 🥝︎ This doesn't throw error.
+echo addNumbers(1, 200); // 🥝︎ This doesn't throw error.
 // since strict is NOT enabled "5 days" is changed to int(5), and it will return 10
 ?>
