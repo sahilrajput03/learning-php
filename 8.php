@@ -6,6 +6,5 @@ function writeMsg() {
 writeMsg();
 
 // call the function
-?>
 
-http://localhost:3000/
+?>

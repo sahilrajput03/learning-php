@@ -10,7 +10,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/', (req, res) => {
-	return res.send("You made a get request on '/' endpoint.")
+	return res.send("You made a get 🚵︎ request on '/' endpoint.")
 })
 
 app.get('/a', (req, res) => {
