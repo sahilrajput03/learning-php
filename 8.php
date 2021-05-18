@@ -3,5 +3,9 @@ function writeMsg() {
 	echo 'Hello world, to alex sir!';
 }
 
-writeMsg(); // call the function
+writeMsg();
+
+// call the function
 ?>
+
+http://localhost:3000/
