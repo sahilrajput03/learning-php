@@ -75,6 +75,7 @@ Browse `localhost/docs` to view the default page of apache2 server.
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./1.php) -->
 <!-- The below code snippet is automatically added from ./1.php -->
+
 ```php
 <?php
 echo '<h1>Hello World 123</h1>';
@@ -95,12 +96,14 @@ $x = 5 /* + 15 */ + 5;
 // src: https://www.w3schools.com/php/php_comments.asp
 ?>
 ```
+
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
 ## File - `2.php`
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./2.php) -->
 <!-- The below code snippet is automatically added from ./2.php -->
+
 ```php
  <!DOCTYPE html>
 <html>
@@ -113,4 +116,55 @@ $x = 5 /* + 15 */ + 5;
 </body>
 </html>
 ```
+
+<!-- MARKDOWN-AUTO-DOCS:END -->
+
+## File - `3.php`
+
+<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./3.php) -->
+<!-- MARKDOWN-AUTO-DOCS:END -->
+
+## File - `4.php`
+
+<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./4.php) -->
+<!-- MARKDOWN-AUTO-DOCS:END -->
+
+## File - `5.php`
+
+<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./5.php) -->
+<!-- MARKDOWN-AUTO-DOCS:END -->
+
+## File - `6.php`
+
+<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./6.php) -->
+<!-- MARKDOWN-AUTO-DOCS:END -->
+
+## File - `7.php`
+
+<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./7.php) -->
+<!-- MARKDOWN-AUTO-DOCS:END -->
+
+## File - `8.php`
+
+<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./8.php) -->
+<!-- MARKDOWN-AUTO-DOCS:END -->
+
+## File - `9.php`
+
+<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./9.php) -->
+<!-- MARKDOWN-AUTO-DOCS:END -->
+
+## File - `10.php`
+
+<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./10.php) -->
+<!-- MARKDOWN-AUTO-DOCS:END -->
+
+## File - `11.php`
+
+<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./11.php) -->
+<!-- MARKDOWN-AUTO-DOCS:END -->
+
+## File - `12.php`
+
+<!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./12.php) -->
 <!-- MARKDOWN-AUTO-DOCS:END -->
