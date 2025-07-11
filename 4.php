@@ -11,7 +11,6 @@
     echo 'My house is ' . $COLOR . '<br>';
     echo 'My boat is ' . $coLOR . '<br>';
     ?>
-
 </body>
 
 </html>

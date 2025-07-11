@@ -28,10 +28,7 @@
         Variable names are case-sensitive ($age and $AGE are two different variables)
         <br />
         <a href="https://www.w3schools.com/php/php_variables.asp">source</a>
-
     </p>
-
-
 </body>
 
 </html>

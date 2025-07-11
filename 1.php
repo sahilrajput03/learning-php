@@ -15,4 +15,3 @@ lines
 // You can also use comments to leave out parts of a code line
 $x = 5 /* + 15 */ + 5;
 // src: https://www.w3schools.com/php/php_comments.asp
-?>
