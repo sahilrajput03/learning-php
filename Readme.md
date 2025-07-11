@@ -65,6 +65,6 @@ Read about this awesomeness @ SO's answer: <https://stackoverflow.com/a/21872484
 
 Browse `localhost/docs` to view the default page of apache2 server.
 
-## continue doing from below link
+## Continue learning from w3schools.com
 
-<https://www.w3schools.com/php/php_variables.asp>
+[Click here](https://www.w3schools.com/php/php_variables.asp)
