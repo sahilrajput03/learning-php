@@ -100,7 +100,6 @@ lines
 // You can also use comments to leave out parts of a code line
 $x = 5 /* + 15 */ + 5;
 // src: https://www.w3schools.com/php/php_comments.asp
-?>
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
@@ -166,7 +165,6 @@ $x = 5 /* + 15 */ + 5;
     echo 'My house is ' . $COLOR . '<br>';
     echo 'My boat is ' . $coLOR . '<br>';
     ?>
-
 </body>
 
 </html>
@@ -208,10 +206,7 @@ $x = 5 /* + 15 */ + 5;
         Variable names are case-sensitive ($age and $AGE are two different variables)
         <br />
         <a href="https://www.w3schools.com/php/php_variables.asp">source</a>
-
     </p>
-
-
 </body>
 
 </html>
@@ -224,14 +219,12 @@ $x = 5 /* + 15 */ + 5;
 <!-- The below code snippet is automatically added from ./6.php -->
 ```php
 <?php
-// 🥳︎ 🥳︎
+// Use below coee to refresh the page every two seconds
 // $url1=$_SERVER['REQUEST_URI'];
 // header("Refresh: 2; URL=$url1");
-// ^^^^^ above code will refresh the page in every two seconds.
 
-echo '<h1>Hello World 123 sd</h1>';
-echo 'I am Superman3';
-?>
+echo '<h1>Hello World 123</h1>';
+echo 'I am Superman';
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
@@ -241,9 +234,8 @@ echo 'I am Superman3';
 <!-- The below code snippet is automatically added from ./7.php -->
 ```php
 <?php
-echo '<h1>Hello World 123 sd</h1>';
-echo 'I am Superman3';
-?>
+echo '<h1>Hello World 123</h1>';
+echo 'I am Superman 1';
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
@@ -253,12 +245,12 @@ echo 'I am Superman3';
 <!-- The below code snippet is automatically added from ./8.php -->
 ```php
 <?php
-function writeMsg() {
+function writeMsg()
+{
 	echo 'Hello world, to alex sir!';
 }
 
 writeMsg(); // call the function
-?>
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
