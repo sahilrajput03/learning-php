@@ -74,7 +74,6 @@ Browse `localhost/docs` to view the default page of apache2 server.
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./1.php) -->
 <!-- The below code snippet is automatically added from ./1.php -->
-
 ```php
 <?php
 echo '<h1>Hello World 123</h1>';
@@ -95,14 +94,12 @@ $x = 5 /* + 15 */ + 5;
 // src: https://www.w3schools.com/php/php_comments.asp
 ?>
 ```
-
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
 ## File - `2.php`
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./2.php) -->
 <!-- The below code snippet is automatically added from ./2.php -->
-
 ```php
  <!DOCTYPE html>
 <html>
@@ -115,55 +112,230 @@ $x = 5 /* + 15 */ + 5;
 </body>
 </html>
 ```
-
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
 ## File - `3.php`
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./3.php) -->
+<!-- The below code snippet is automatically added from ./3.php -->
+```php
+<!DOCTYPE html>
+<html>
+<body>
+
+In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are not case-sensitive.
+
+<br>
+Note: However; all variable names are case-sensitive!
+See next example for that^^.
+<br>
+
+<?php
+echo 'Hello World!<br>';
+echo 'Hello World!<br>';
+echo 'Hello World!<br>';
+?>
+
+</body>
+</html>
+```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
 ## File - `4.php`
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./4.php) -->
+<!-- The below code snippet is automatically added from ./4.php -->
+```php
+<!DOCTYPE html>
+<html>
+<body>
+Note: However; all variable names are case-sensitive!
+<br>
+<br>
+<?php
+$color = 'red';
+echo 'My car is ' . $color . '<br>';
+echo 'My house is ' . $COLOR . '<br>';
+echo 'My boat is ' . $coLOR . '<br>';
+?>
+
+</body>
+</html>
+```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
 ## File - `5.php`
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./5.php) -->
+<!-- The below code snippet is automatically added from ./5.php -->
+```php
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$txt = 'Hello world!';
+$x = 5;
+$y = 10.5;
+
+echo $txt;
+echo '<br>';
+echo $x;
+echo '<br>';
+echo $y;
+?>
+
+<p>
+PHP Variables
+
+A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).
+
+Rules for PHP variables:
+
+    A variable starts with the $ sign, followed by the name of the variable
+    A variable name must start with a letter or the underscore character
+    A variable name cannot start with a number
+    A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+    Variable names are case-sensitive ($age and $AGE are two different variables)
+    <br/>
+    <a href="https://www.w3schools.com/php/php_variables.asp">source</a>
+    
+</p>
+
+
+</body>
+</html>
+```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
 ## File - `6.php`
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./6.php) -->
+<!-- The below code snippet is automatically added from ./6.php -->
+```php
+<?php
+// 🥳︎ 🥳︎
+// $url1=$_SERVER['REQUEST_URI'];
+// header("Refresh: 2; URL=$url1");
+// ^^^^^ above code will refresh the page in every two seconds.
+
+echo '<h1>Hello World 123 sd</h1>';
+echo 'I am Superman3';
+?>
+```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
 ## File - `7.php`
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./7.php) -->
+<!-- The below code snippet is automatically added from ./7.php -->
+```php
+<?php
+echo '<h1>Hello World 123 sd</h1>';
+echo 'I am Superman3';
+?>
+```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
 ## File - `8.php`
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./8.php) -->
+<!-- The below code snippet is automatically added from ./8.php -->
+```php
+<?php
+function writeMsg() {
+	echo 'Hello world, to alex sir!';
+}
+
+writeMsg(); // call the function
+?>
+```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
 ## File - `9.php`
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./9.php) -->
+<!-- The below code snippet is automatically added from ./9.php -->
+```php
+<?php
+function familyName($fname) {
+	echo "$fname Yup.<br>";
+}
+
+familyName('Jani');
+familyName('Hege');
+familyName('Stale');
+familyName('Kai Jim');
+familyName('Borge');
+
+function familyName2($fname, $year) {
+	echo "$fname Refsnes. Born in $year <br>";
+}
+
+familyName2('Hege', '1975');
+familyName2('Stale', '1978');
+familyName2('Kai Jim', '1983');
+?>
+```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
 ## File - `10.php`
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./10.php) -->
+<!-- The below code snippet is automatically added from ./10.php -->
+```php
+<?php
+
+// eg from: https://www.w3schools.com/php/php_functions.asp
+// In the example above, notice that we did not have to tell PHP which data type the variable is.
+// PHP automatically associates a data type to the variable, depending on its value. Since the data types are not set in a strict sense, you can do things like adding a string to an integer without causing an error.
+
+function addNumbers(int $a, int $b) {
+	return $a + $b;
+}
+
+echo addNumbers(5, '5 days');
+// since strict is NOT enabled "5 days" is changed to int(5), and it will return 10
+?>
+```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
 ## File - `11.php`
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./11.php) -->
+<!-- The below code snippet is automatically added from ./11.php -->
+```php
+<?php declare(strict_types=1);
+// In PHP 7, "type declarations" were added. This gives us an option to specify the expected data type when declaring a function, and by adding the strict declaration, it will throw a "Fatal Error" if the data type mismatches.
+// To specify strict we need to set declare(strict_types=1);. This must be on the very first line of the PHP file.
+
+// The Example is from: https://www.w3schools.com/php/php_functions.asp
+
+function addNumbers(int $a, int $b) {
+	return $a + $b;
+}
+
+// echo addNumbers(5, '5 days'); // 🛑︎ This throws error..
+echo addNumbers(1, 3); // 🥝︎ This doesn't throw error.
+// since strict is NOT enabled "5 days" is changed to int(5), and it will return 10
+?>
+```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
 ## File - `12.php`
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./12.php) -->
+<!-- The below code snippet is automatically added from ./12.php -->
+```php
+<?php declare(strict_types=1);
+// 🤹︎🤹︎🤹︎ Amazing we can still use loosely typed bindings with php even though we specified "strict declaration" for php, yikes!
+function addNumbers($a, $b) {
+	return $a + $b;
+}
+
+// echo addNumbers(5, '5 days'); // 🛑︎ This throws error..
+echo addNumbers(1, 200); // 🥝︎ This doesn't throw error.
+// since strict is NOT enabled "5 days" is changed to int(5), and it will return 10
+?>
+```
 <!-- MARKDOWN-AUTO-DOCS:END -->
