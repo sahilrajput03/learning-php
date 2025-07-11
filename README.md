@@ -101,6 +101,7 @@ lines
 // You can also use comments to leave out parts of a code line
 $x = 5 /* + 15 */ + 5;
 // src: https://www.w3schools.com/php/php_comments.asp
+?>
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
@@ -226,6 +227,7 @@ $x = 5 /* + 15 */ + 5;
 
 echo '<h1>Hello World 123</h1>';
 echo 'I am Superman';
+?>
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
@@ -237,6 +239,7 @@ echo 'I am Superman';
 <?php
 echo '<h1>Hello World 123</h1>';
 echo 'I am Superman 1';
+?>
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
@@ -246,12 +249,12 @@ echo 'I am Superman 1';
 <!-- The below code snippet is automatically added from ./8.php -->
 ```php
 <?php
-function writeMsg()
-{
+function writeMsg() {
 	echo 'Hello world, to alex sir!';
 }
 
 writeMsg(); // call the function
+?>
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
