@@ -102,15 +102,14 @@ $x = 5 /* + 15 */ + 5;
 <!-- The below code snippet is automatically added from ./2.php -->
 ```php
  <!DOCTYPE html>
-<html>
-<body>
+ <html>
 
-<h1>My first PHP page</h1>
+ <body>
+     <h1>My first PHP page</h1>
+     <?php echo 'Hello World!'; ?>
+ </body>
 
-<?php echo 'Hello World!'; ?>
-
-</body>
-</html>
+ </html>
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
@@ -121,22 +120,22 @@ $x = 5 /* + 15 */ + 5;
 ```php
 <!DOCTYPE html>
 <html>
+
 <body>
+    In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are not case-sensitive.
 
-In PHP, keywords (e.g. if, else, while, echo, etc.), classes, functions, and user-defined functions are not case-sensitive.
+    <br>
+    Note: However, all variable names are case-sensitive.
+    See next example for that^^.
+    <br>
 
-<br>
-Note: However; all variable names are case-sensitive!
-See next example for that^^.
-<br>
-
-<?php
-echo 'Hello World!<br>';
-echo 'Hello World!<br>';
-echo 'Hello World!<br>';
-?>
-
+    <?php
+    echo 'Hello World!<br>';
+    echo 'Hello World!<br>';
+    echo 'Hello World!<br>';
+    ?>
 </body>
+
 </html>
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
@@ -148,18 +147,20 @@ echo 'Hello World!<br>';
 ```php
 <!DOCTYPE html>
 <html>
+
 <body>
-Note: However; all variable names are case-sensitive!
-<br>
-<br>
-<?php
-$color = 'red';
-echo 'My car is ' . $color . '<br>';
-echo 'My house is ' . $COLOR . '<br>';
-echo 'My boat is ' . $coLOR . '<br>';
-?>
+    Note: However, all variable names are case-sensitive.
+    <br>
+    <br>
+    <?php
+    $color = 'red';
+    echo 'My car is ' . $color . '<br>';
+    echo 'My house is ' . $COLOR . '<br>';
+    echo 'My boat is ' . $coLOR . '<br>';
+    ?>
 
 </body>
+
 </html>
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
@@ -171,39 +172,40 @@ echo 'My boat is ' . $coLOR . '<br>';
 ```php
 <!DOCTYPE html>
 <html>
+
 <body>
+    <?php
+    $txt = 'Hello world!';
+    $x = 5;
+    $y = 10.5;
 
-<?php
-$txt = 'Hello world!';
-$x = 5;
-$y = 10.5;
+    echo $txt;
+    echo '<br>';
+    echo $x;
+    echo '<br>';
+    echo $y;
+    ?>
 
-echo $txt;
-echo '<br>';
-echo $x;
-echo '<br>';
-echo $y;
-?>
+    <p>
+        PHP Variables
 
-<p>
-PHP Variables
+        A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).
 
-A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume).
+        Rules for PHP variables:
 
-Rules for PHP variables:
+        A variable starts with the $ sign, followed by the name of the variable
+        A variable name must start with a letter or the underscore character
+        A variable name cannot start with a number
+        A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+        Variable names are case-sensitive ($age and $AGE are two different variables)
+        <br />
+        <a href="https://www.w3schools.com/php/php_variables.asp">source</a>
 
-    A variable starts with the $ sign, followed by the name of the variable
-    A variable name must start with a letter or the underscore character
-    A variable name cannot start with a number
-    A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
-    Variable names are case-sensitive ($age and $AGE are two different variables)
-    <br/>
-    <a href="https://www.w3schools.com/php/php_variables.asp">source</a>
-    
-</p>
+    </p>
 
 
 </body>
+
 </html>
 ```
 <!-- MARKDOWN-AUTO-DOCS:END -->
