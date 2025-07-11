@@ -74,9 +74,43 @@ Browse `localhost/docs` to view the default page of apache2 server.
 ## File - `1.php`
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./1.php) -->
+<!-- The below code snippet is automatically added from ./1.php -->
+```php
+<?php
+echo '<h1>Hello World 123</h1>';
+echo 'Hello World 123';
+
+// This is a single-line comment
+
+# This is also a single-line comment
+
+/*
+This is a multiple-lines comment block
+that spans over multiple
+lines
+*/
+
+// You can also use comments to leave out parts of a code line
+$x = 5 /* + 15 */ + 5;
+// src: https://www.w3schools.com/php/php_comments.asp
+?>
+```
 <!-- MARKDOWN-AUTO-DOCS:END -->
 
 ## File - `2.php`
 
 <!-- MARKDOWN-AUTO-DOCS:START (CODE:src=./2.php) -->
+<!-- The below code snippet is automatically added from ./2.php -->
+```php
+ <!DOCTYPE html>
+<html>
+<body>
+
+<h1>My first PHP page</h1>
+
+<?php echo 'Hello World!'; ?>
+
+</body>
+</html>
+```
 <!-- MARKDOWN-AUTO-DOCS:END -->
