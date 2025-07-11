@@ -51,10 +51,9 @@ To serve a particular path with apache2, read the guide @ linux-walkthrough.md f
 ## Tips
 
 - Want to make your prettier work with formatting php file as well..?
-
-Just install this package `npm i -D @prettier/plugin-php` to your project and you are good then.., (i.e., saving a file now also formats php files as well).
-src: <https://stackoverflow.com/a/63228491>
-
+- ❤️Currently using extension for formating via VsCode: [Click here](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client)
+- **_(No longer works as of 12 July, 2025)_** Format with Prettier: Just install this package `npm i -D @prettier/plugin-php` to your project and you are good then.., (i.e., saving a file now also formats php files as well).
+  - Src: [Stackoverflow](https://stackoverflow.com/a/63228491).
 - Run command: `php -S localhost:8000` to run current folder at 8000 port.
 
 Read about this awesomeness @ SO's answer: <https://stackoverflow.com/a/21872484/10012446>

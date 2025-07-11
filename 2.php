@@ -1,10 +1,9 @@
  <!DOCTYPE html>
-<html>
-<body>
+ <html>
 
-<h1>My first PHP page</h1>
+ <body>
+     <h1>My first PHP page</h1>
+     <?php echo 'Hello World!'; ?>
+ </body>
 
-<?php echo 'Hello World!'; ?>
-
-</body>
-</html> 
+ </html>
