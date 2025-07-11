@@ -1,5 +1,10 @@
 # Readme
 
+# TODO: 12 July 2025
+
+- Recreate the package.json and package-lock.json file in this project and also add .nvmrc file.
+- Also, add packge-scripts file for better package management in this project of the scripts used.
+
 Learning path - Start learning from here: <https://www.w3schools.com/php/php_functions.asp>
 
 ## About live php server setup
