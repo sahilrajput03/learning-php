@@ -60,8 +60,9 @@ To serve a particular path with apache2, read the guide @ linux-walkthrough.md f
         - Install **PHP-CS-Fixer** by running - `composer require --dev friendsofphp/php-cs-fixer`
             - Make sure you add `vendor` directory to your `.gitignore` file.
     - **AMAZING THINGS**- [vscode-intelephense-client](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client) 
-- **_(No longer works as of 12 July, 2025)_** Formatting php with Prettier ([Src](https://stackoverflow.com/a/63228491))
+- Formatting php with Prettier ([Src](https://stackoverflow.com/a/63228491))
     -  Format with Prettier: Just install this package `npm i -D @prettier/plugin-php` to your project and you are good then.., (i.e., saving a file now also formats php files as well).
+    - *NOTE IF your formatter does not work in VsCode* then please check this as it helped fix my issue of formatting in vscode today 12 July 2025. [Github Issue](https://github.com/prettier/plugin-php/issues/1730)
 - Run command: `php -S localhost:8000` to run current folder at 8000 port.
 
 Read about this awesomeness @ SO's answer: <https://stackoverflow.com/a/21872484/10012446>
