@@ -34,3 +34,5 @@ php-hot-reloader
 
 # vercel
 **/.vercel
+
+vendor

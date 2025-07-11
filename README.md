@@ -55,7 +55,11 @@ To serve a particular path with apache2, read the guide @ linux-walkthrough.md f
 
 ## Tips
 
-- ❤️Currently using extension for formating via VsCode: [Click here](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client) (Source - [ChatGPT](https://chatgpt.com/c/687156fb-efd4-8007-8f1a-6b69e1523cc0))
+- Formatter (Source - [ChatGPT](https://chatgpt.com/c/687156fb-efd4-8007-8f1a-6b69e1523cc0)):
+    - PHP CS Fixer - [VsCode Extension](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer), [Github](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer#installation)
+        - Install **PHP-CS-Fixer** by running - `composer require --dev friendsofphp/php-cs-fixer`
+            - Make sure you add `vendor` directory to your `.gitignore` file.
+    - **AMAZING THINGS**- [vscode-intelephense-client](https://marketplace.visualstudio.com/items?itemName=bmewburn.vscode-intelephense-client) 
 - **_(No longer works as of 12 July, 2025)_** Formatting php with Prettier ([Src](https://stackoverflow.com/a/63228491))
     -  Format with Prettier: Just install this package `npm i -D @prettier/plugin-php` to your project and you are good then.., (i.e., saving a file now also formats php files as well).
 - Run command: `php -S localhost:8000` to run current folder at 8000 port.
